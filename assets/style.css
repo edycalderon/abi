@@ -1,0 +1,135 @@
+.fondoPagna{
+    width: 100%;
+    height: 550px;
+    background-image: url(./fondo.jpg);
+    background-size: cover;
+    background-size: center;
+}
+
+
+.listpru{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.para{
+    font-size: 50px;
+    font-weight: 900;
+}
+.list{
+    list-style: none;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.esto-grande{
+    font-size: 20px;
+}
+
+
+
+.descripcion{
+    font-weight: 900;
+    color: white;
+    margin-left: 20px;
+}
+.padre-a{
+    
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-left: 45px;
+}
+.pp{
+    margin-bottom: 25px;
+    font-size: 27px;
+    margin-left: 5px;
+}
+.ultimo-scrolld{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    border-bottom: solid 40px white;
+    background-color: white;
+    letter-spacing:5px;
+    width: 100%;
+    overflow-x: auto;
+
+}
+
+.ult{
+
+    width: 450px;
+    height: 500px;
+
+}
+.gire1{
+    background-image: url(prueba3.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.gire2{
+    background-image: url(prueba3.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.gire3{
+    background-image: url(prueba3.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.gire4{
+    background-image: url(prueba3.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.gire5{
+    background-image: url(prueba3.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.giregarcia{
+    border-radius: 20px;
+    width: 110px;
+    height: 40px;
+    background-color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: solid transparent;
+    margin-top: 380px;
+    margin-left: 40px;
+}
+.ya{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    margin-left: 40px;
+    border-bottom: solid 40px white;
+}
+
+img{
+    width: 100%;
+}
+.cardd{
+    width: 100%;
+    height: 450px;
+}
+.transform{
+    transform: scale(1.0);
+    transition: 1s;
+}
+.transform:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
