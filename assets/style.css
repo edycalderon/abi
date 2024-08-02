@@ -46,6 +46,11 @@
     font-size: 27px;
     margin-left: 5px;
 }
+
+.hacercaDeNosotros{
+    position:static;
+}
+
 .ultimo-scrolld{
     display: flex;
     flex-direction: row;
@@ -55,45 +60,77 @@
     letter-spacing:5px;
     width: 100%;
     overflow-x: auto;
-
 }
 
 .ult{
-
     width: 450px;
     height: 500px;
-
 }
 .gire1{
-    background-image: url(prueba3.jpg);
+    background-image: url(./casaejemplo.webp);
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 .gire2{
-    background-image: url(prueba3.jpg);
+    background-image: url(./casaejemplo.webp);
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 .gire3{
-    background-image: url(prueba3.jpg);
+    background-image: url(./casaejemplo.webp);
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 .gire4{
-    background-image: url(prueba3.jpg);
+    background-image: url(./casaejemplo.webp);
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 .gire5{
-    background-image: url(prueba3.jpg);
+    background-image: url(./casaejemplo.webp);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.gire6{
+    background-image: url(./casaejemplo.webp);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.gire7{
+    background-image: url(./casaejemplo.webp);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.gire8{
+    background-image: url(./casaejemplo.webp);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.gire9{
+    background-image: url(./casaejemplo.webp);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.gire10{
+    background-image: url(./casaejemplo.webp);
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center;
@@ -110,7 +147,7 @@
     margin-top: 380px;
     margin-left: 40px;
 }
-.ya{
+.containerFotosDentroEscroll{
     display: flex;
     flex-direction: row;
     gap: 14px;
@@ -132,4 +169,43 @@ img{
 .transform:hover{
     transform: scale(1.1);
     transition: 1s;
+}
+
+.cardIsquierda{
+    width: 100%;
+    height: 350px;
+    border: red 5px solid;
+}
+
+.transRight{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.transRight:hover{
+    transform: translatex(20px);
+        -webkit-transform: translatex(20px);
+        -moz-transform: translatex(20px);
+}
+.float-fluid{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.float-fluid:hover{
+    transform: translate3d(12px, 50%, 3em);
+        -webkit-transform: translate3d(12px, 50%, 3em);
+        -moz-transform: translate3d(12px, 50%, 3em);
+    box-shadow: 0 5px 5px 0 #000000,0 8px 8px 0 #000000;
+}
+
+.transLeft{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.transLeft:hover{
+    transform: translatex(-20px);
+        -webkit-transform: translatex(-20px);
+        -moz-transform: translatex(-20px);
 }
